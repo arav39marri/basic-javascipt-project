@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="first">
+      <div class="heading">
+        <div class="head_name">
+          <span>Building a website</span>
+        </div>
+      </div>
+      <div class="start">
+        <p style="font-size: larger;" ><b>start solving by clicking start button</b></p>
+        <button
+          id="startbutton"
+          style="
+            background-color: orange;
+            color: red;
+            height: 30px;
+            width: 50px;
+            border-radius: 10px;
+          "
+        >
+          start
+        </button>
+      </div>
+      <div class="operation">
+        <div class="box addition">
+          <span id="b">additon</span>
+          <label for="text">a : </label>
+          <input id="in1" class="aval" type="text" /> <br />
+          <label for="text">b :</label>
+          <input id="in2" class="bval" type="text" /><br />
+          <label id="o" for="text"> enter your answer :</label>
+          <input id="out" type="text" /><br />
+          <button id="but" style="background-color: rgba(136, 0, 255, 0.158)">
+            submit
+          </button>
+          <p class="resulta result"></p>
+        </div>
+        <div class="box mul">
+          <span id="b">multiplication</span>
+
+          <label for="text">a : </label>
+          <input id="in1m" class="avalm" type="text" /> <br />
+          <label for="text">b :</label>
+          <input id="in2m" class="bvalm" type="text" /><br />
+          <label id="o" for="text"> enter your answer :</label>
+          <input id="outm" type="text" /><br />
+          <button
+            id="but_mul"
+            style="background-color: rgba(0, 255, 145, 0.158)"
+          >
+            submit
+          </button>
+          <p class="resultm result"></p>
+        </div>
+        <div class="box sub">
+          <span id="b">subtraction</span>
+          <label for="text">a : </label>
+          <input id="in1s" class="avals" type="text" /> <br />
+          <label for="text">b :</label>
+          <input id="in2s" class="bvals" type="text" /><br />
+          <label id="o" for="text"> enter your answer :</label>
+          <input id="outs" type="text" /><br />
+          <button
+            id="but_sub"
+            style="background-color: rgba(136, 0, 255, 0.158)"
+          >
+            submit
+          </button>
+          <p class="results result"></p>
+        </div>
+        <div class="box div">
+          <span id="b">division</span>
+          <label for="text">a : </label>
+          <input id="in1d" class="avald" type="text" /> <br />
+          <label for="text">b :</label>
+          <input id="in2d" class="bvald" type="text" /><br />
+          <label id="o" for="text"> enter your answer :</label>
+          <input id="outd" type="text" /><br />
+          <button
+            id="but_div"
+            style="background-color: rgba(136, 0, 255, 0.158)"
+          >
+            submit
+          </button>
+          <p class="resultd result"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
