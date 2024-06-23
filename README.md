@@ -1,1 +1,1 @@
-# basic-javascipt-project
+# basic-javascipt-project.
